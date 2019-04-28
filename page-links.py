@@ -1,5 +1,6 @@
 # urllib test
 # attempt to retrieve every link on a web page
+# prints all the links
 # program made by Eren Sulutas
 
 import urllib.request
