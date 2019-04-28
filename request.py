@@ -21,3 +21,9 @@ link2 = urllib.request.urlopen(obj)
 
 # prints the html of the web page as done in line 13, however formats it as well this time
 print(link2.read().decode('utf-8'))
+
+
+link3 = urllib.request.urlopen('https://en.wikipedia.org/wiki/Special:Random')
+
+# prints the link of a random Wikipedia page (note the difference between the request and parse for this)
+print(link3.geturl())
