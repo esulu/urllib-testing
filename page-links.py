@@ -1,6 +1,6 @@
 # urllib test
 # attempt to retrieve every link on a web page
-# prints all the links
+# adds the links to a set and prints them
 
 import urllib.request
 import re
