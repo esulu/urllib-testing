@@ -1,6 +1,7 @@
 # python link grabber
 # made with Beautifulsoup 4.7.1 and urllib libraries
 # program by Eren Sulutas
+# note: run the following in the command line;
 # python -m pip install beautifulsoup4
 
 from bs4 import BeautifulSoup
