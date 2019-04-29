@@ -16,7 +16,7 @@ path_list = regex.findall(source)
 for i in path_list:
     links.add('http://en.wikipedia.org' + i.split("\"")[1])  # adds the link, where i.split(...) is the specific article
 
-links.discard(source)  # removes all links that refer to the start page
+links.discard(link.geturl())  # removes all links that refer to the start page
 # note: .discard() doesn't raise an error if the item dne, unlike .remove()
 
 print(links)
